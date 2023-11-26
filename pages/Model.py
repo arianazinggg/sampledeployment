@@ -4,18 +4,7 @@ import streamlit as st
 import tensorflow as tf
 import pandas as pd
 
-def run_tensorflow_model():
-    model = tf.keras.models.Sequential([
-        # Add your layers here
-        tf.keras.layers.Dense(128, activation='relu', input_shape=(input_dim,)),
-        tf.keras.layers.Dense(output_dim, activation='softmax')
-    ])
 
-    # Compile and train the model
-    model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
-    # ...
-
-    return model
 
 
 
