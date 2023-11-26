@@ -57,6 +57,7 @@ rsa==4.9
 six==1.16.0
 smmap==5.0.1
 streamlit==1.28.2
+scikit-learn
 tenacity==8.2.3
 tensorboard==2.15.1
 tensorboard-data-server==0.7.2
@@ -76,4 +77,3 @@ watchdog==3.0.0
 Werkzeug==3.0.1
 wrapt==1.14.1
 zipp==3.17.0
-scikit-learn
